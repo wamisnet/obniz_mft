@@ -17,7 +17,9 @@ function miyo_setCustomSticker(id, width, height, custom_text1, custom_text2) {
         sticker.src = imgArray[getRandomInt(5)];
       } else {
         obniz.display.clear();
-        sticker.src = null;
+        obniz.display.print("Push Me!");
+        obniz.display.print("おみくじするよ！！");
+        sticker.src = "https://lh3.googleusercontent.com/WjoOCwSsU7GDfkmbEmdLh1QgIWHUtFnfCY_HtrUEVsv1088TK8wvDRQdVwG5yKg6qNp6P0Ysj-yjZf49xcaYhP9Tui_LUENB_qJD2vyJH3X8XrLIYL27_YkhrOQYJrXA35HQWFdMjhk=s400";
       }
     }
   }
